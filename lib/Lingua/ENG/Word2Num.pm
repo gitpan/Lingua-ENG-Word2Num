@@ -5,6 +5,8 @@ package Lingua::ENG::Word2Num;
 
 # {{{ use block
 
+use 5.10.1;
+
 use strict;
 use warnings;
 
@@ -15,7 +17,7 @@ use Perl6::Export::Attrs;
 # }}}
 # {{{ variables
 
-our $VERSION = 0.0577;
+our $VERSION = 0.0682;
 
 my $parser   = eng_numerals();
 
@@ -193,12 +195,12 @@ __END__
 
 =head1 VERSION
 
-version 0.0577
+version 0.0682
 
 text to positive number convertor for english. Input text must be in
 utf-8 encoding.
 
-=head2 $Rev: 577 $
+=head2 $Rev: 682 $
 
 We use ISO 639-3 namespace.
 
